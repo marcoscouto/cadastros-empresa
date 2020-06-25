@@ -14,7 +14,7 @@ data class Funcionario(
 
         @Id
         @GeneratedValue(generator = "UUID")
-        val id: UUID,
+        var id: UUID?,
 
         @NotBlank(message = "O nome é obrigatório")
         val nome: String,
