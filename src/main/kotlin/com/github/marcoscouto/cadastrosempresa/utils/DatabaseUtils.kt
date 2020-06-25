@@ -17,4 +17,9 @@ class DatabaseUtils(val funcionarioRepository: FuncionarioRepository) {
 
     fun deleteData() = funcionarioRepository.deleteAll()
 
+    fun refreshDatabase(){
+        deleteData()
+        populateDatabase()
+    }
+
 }
