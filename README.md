@@ -64,8 +64,11 @@ A entidade Funcionário está definida da seguinte forma
 #### Endpoint de Funcionários
 
 **/funcionarios** (GET) - Busca todos os funcionários
+
 **/funcionarios/{id}** (GET) - Busca o funcionário por ID
+
 **/funcionarios/{id}** (PUT) - Faz o upload do funcionário por ID
+
 **/funcionarios/{id}** (DELETE) - Deleta o funcionário por ID
 
 #### Endpoint de Database

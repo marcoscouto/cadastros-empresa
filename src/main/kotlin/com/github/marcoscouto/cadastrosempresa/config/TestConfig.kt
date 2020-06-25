@@ -6,7 +6,6 @@ import org.springframework.context.annotation.Configuration
 import org.springframework.context.annotation.Profile
 
 @Configuration
-@Profile("test")
 class TestConfig(val utils: DatabaseUtils) : CommandLineRunner {
 
     override fun run(vararg args: String?) {
