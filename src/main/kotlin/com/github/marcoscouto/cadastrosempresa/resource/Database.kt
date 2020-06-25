@@ -10,6 +10,9 @@ import org.springframework.web.bind.annotation.RestController
 class Database(val utils: DatabaseUtils) {
 
     @GetMapping
-    fun refreshDatabase() = utils.refreshDatabase()
+    fun refreshDatabase(): String {
+        utils.refreshDatabase()
+        return "Banco de dados resetado com sucesso!"
+    }
 
 }
