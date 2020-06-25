@@ -1,4 +1,4 @@
-package com.github.marcoscouto.cadastrosempresa
+package com.github.marcoscouto.cadastrosempresa.domain
 
 import java.util.*
 import javax.persistence.Entity
