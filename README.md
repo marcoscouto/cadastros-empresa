@@ -16,6 +16,8 @@ Existem as seguintes opções para utilização dessa aplicação
 
 Clone o repositório.
 
+> git clone https://github.com/marcoscouto/cadastros-empresa.git
+
 Altere o arquivo **application.properties** com a linha de código 
 
 > spring.profiles.active=test
@@ -25,6 +27,10 @@ Execute o seguinte comando na pasta do projeto
 > gradle bootrun
 
 **Ambiente de Desenvolvimento**
+
+Instale o [Docker](https://www.docker.com/get-started) e inicie a instância do Postgres através do seguinte comando na pasta do projeto
+
+> docker-compose up -d
 
 Execute os passos de Ambiente de Testes trocando somente a seguinte linha de código no arquivo application.properties
 
